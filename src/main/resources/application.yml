@@ -1,0 +1,34 @@
+server:
+    port: 2023
+spring:
+    mvc:
+        pathmatch:
+            matching-strategy: ant-path-matcher
+    datasource:
+       url: jdbc:mysql://localhost:3306/employeeswager
+       username: root
+       password: root
+       driver-class-name: com.mysql.cj.jdbc.Driver
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+#
+#    data:
+#        mongodb:
+#            authentication-database: admin
+#            username:
+#            password:
+#            database: swagger
+#            port: 27017
+#            host: localhost
+
+
+
+
+
+
+
+
+
+
